@@ -1,0 +1,8 @@
+.first-img{
+    background-image: url("../Assets/headerimg.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: auto;
+  height: 300px;
+}

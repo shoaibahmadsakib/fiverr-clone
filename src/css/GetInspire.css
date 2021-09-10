@@ -1,0 +1,4 @@
+.two_name{
+    display: flex;
+    flex-direction: column;
+}

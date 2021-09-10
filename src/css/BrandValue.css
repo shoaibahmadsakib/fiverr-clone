@@ -1,0 +1,6 @@
+.Brand_value{
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+    padding-bottom: 50px;
+}

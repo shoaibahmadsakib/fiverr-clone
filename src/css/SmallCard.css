@@ -1,0 +1,11 @@
+.paper_style {
+
+    width: max-content;
+    padding: 20px;
+
+}
+.paper_size{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}

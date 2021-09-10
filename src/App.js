@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+
 import './App.css';
+import BrandValue from './components/BrandValue';
+import DealsUnder from './components/DealsUnder';
+import ExploreMarket from './components/ExploreMarket';
+import Footer from './components/Footer';
+import GetInspire from './components/GetInspire';
+import Header from './components/Header';
+import PhotoShow from './components/PhotoShow';
+import PopularService from './components/PopularService';
+import ProductCustom from './components/ProductCustom';
+import Rating from './components/Rating';
+import ShareAppScreen from './components/ShareAppScreen';
+import ShopGoods from './components/ShopGoods';
+import SmallCard from './components/SmallCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header/>
+     <BrandValue/>
+     <SmallCard/>
+     <PopularService/>
+     <ShopGoods/>
+     
+     <ExploreMarket/>
+     <ProductCustom/>
+     <DealsUnder/>
+     <PhotoShow/>
+  
+     <GetInspire/>
+   
+     <ShareAppScreen/>
+     <Footer/>
+
     </div>
   );
 }

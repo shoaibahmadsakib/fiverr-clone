@@ -1,0 +1,64 @@
+.top_Header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgb(147 24 242 / 46%) 0%,
+        rgb(59 20 59 / 37%) 48.81%,
+        rgb(127 101 141 / 69%) 100%
+      ),
+      url(../Assets/headerimg.png);
+  
+    /* rgba(114, 46, 166, 0.46) 0%,
+      rgba(38, 36, 38, 0.37) 48.81%,
+      rgba(179, 20, 36, 0.53) 100% */
+    /* ; */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -100px;
+  }
+  .header_textpart {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 127px;
+  }
+  .header_two_part {
+    position: relative;
+    top: 250px;
+  }
+  
+  .type_style {
+    font-weight: 700;
+    font-size: xx-large;
+    color: #bcbdff;
+  }
+  
+
+  /* poopular */
+
+  .popular{
+  display: flex;
+  
+  }
+  .popular ul{
+    list-style: none;
+    display: flex;
+
+  }
+  .popular ul li{
+    padding-right: 10px;
+  }
+  
+  .popular ul li a{
+    border: none;
+    outline: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+  }

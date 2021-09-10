@@ -1,0 +1,18 @@
+.image_1{
+    background-image: url("../Assets/popular1.jpg");
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    
+}
+.image_1:hover{
+    background-image: linear-gradient(
+        rgb(147 24 242 / 46%) 0%,
+        rgb(59 20 59 / 37%) 48.81%,
+        rgb(127 101 141 / 69%) 100%
+      ), url("../Assets/popular1.jpg");
+
+}
