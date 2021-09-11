@@ -1,0 +1,9 @@
+.button_style {
+  display: flex;
+  justify-content: center;
+  grid-gap: 103px;
+}
+.button_image{
+    display: flex;
+  
+}

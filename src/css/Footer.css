@@ -1,7 +1,28 @@
-.Footer_listitem{
-    list-style: none;
+.Footer_container{
+    border-top: 1px solid #8080805e;
+    box-shadow: 0px 2px 3px #0000005e;
+    /* margin-bottom: 50px; */
+    padding: 63px 0px 0px 0px;
+
+}
+.list_style ,.list_header{
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start;
+  line-height: 25px;
 }
 
+.Footer_listitem{
+    list-style: none;
+    width: max-content;
+
+
+}
+.Footer_listitem div{
+    padding-bottom: 5px;
+}
 .footer_twoItem{
-    padding-top: 30px;
+    padding: 30px;
+    border-top: 1px solid #8080805e;
+    box-shadow: 0px 2px 3px #0000005e;
 }

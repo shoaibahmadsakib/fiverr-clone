@@ -19,7 +19,7 @@ function App() {
     <div className="App">
      {/* <Header/>
      <BrandValue/> */}
-     {/* <SmallCard/> */}
+     <SmallCard/>
      <PopularService/>
      <ShopGoods/>
      <ExploreMarket/>
