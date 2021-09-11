@@ -124,10 +124,10 @@ const Footer = () => {
         </Grid>
         <div className="footer_twoItem">
           <Grid container>
-            <Grid item lg={6}>
+            <Grid item lg={6} sm={6}>
              <h3>Company logo</h3>
             </Grid>
-            <Grid item lg={6}>
+            <Grid item lg={6} sm={6}>
              <p>Copy right by someone </p>
             </Grid>
           </Grid>

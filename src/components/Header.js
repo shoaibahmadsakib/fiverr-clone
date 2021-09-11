@@ -1,16 +1,17 @@
 import React from "react";
 import "../css/Header.css";
-import { Button, Paper, IconButton, InputBase } from "@material-ui/core";
+import { Button, Paper, IconButton, InputBase, Container } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import { makeStyles } from "@material-ui/core/styles";
 import Divider from "@material-ui/core/Divider";
+import ManPhoto from "../Assets/man-12326.png"
 
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "2px 4px",
     display: "flex",
     alignItems: "center",
-    width: 400,
+    width: 500,
   },
   input: {
     marginLeft: theme.spacing(1),
@@ -29,10 +30,13 @@ const Header = () => {
   const classes = useStyles();
   return (
     <div className="top_Header" id="home">
+      <Container>
       <div className="header_two_part">
         <div className="header_textpart">
-          <h2>Find the perfect freelance services for your business</h2>
-          <div className="type_style"></div>
+          <h3>
+            Find the perfect freelance <br /> services for your business
+          </h3>
+
           <Paper component="form" className={classes.root}>
             <IconButton
               type="submit"
@@ -53,8 +57,8 @@ const Header = () => {
           </Paper>
           {/* popular */}
           <div class="popular">
-            Popular:
             <ul>
+              <li>Popular:</li>
               <li>
                 <a
                   href="/categories/graphics-design/web-plus-mobile-design?source=hplo_search_tag&amp;pos=1&amp;name=web-plus-mobile-design"
@@ -89,13 +93,12 @@ const Header = () => {
               </li>
             </ul>
           </div>
-
-
         </div>
-        <div className="header_animation_part"></div>
+        <div className="man_photo_part">
+             <img src={ManPhoto} alt="" height="auto" width="500px" />
+        </div>
       </div>
-
-   
+      </Container>
     </div>
   );
 };
