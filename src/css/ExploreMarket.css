@@ -1,0 +1,57 @@
+.exploreMarket .itemList{
+    /* border: 1px solid; */
+    width: 95%;
+    margin:0 auto;
+}
+.exploreMarket .itemList h3{
+    font-size: 17px;
+}
+
+
+.exploreMarket .container{
+    width: 95%;
+}
+
+.exploreMarket .Title_style h1{
+    text-align: left;
+    display: block;
+    padding: 1rem 0rem 3rem 0rem;
+    /* color: red; */
+}
+
+.exploreMarket .itemList img{
+    width: 30%;
+}
+
+.exploreMarket .itemList a{
+    color: #222325;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.exploreMarket .itemList span{
+   display: block;
+   border-top: 2px;
+   width: 100px;
+   height: 2px;
+   margin: 0 auto;
+   background-color: black;
+}
+.exploreMarket .itemList h3{
+  padding-top: .5rem;
+}
+
+/* 
+.exploreMarket .itemList a:after{
+    content: "";
+    position: absolute;
+    top: 45px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    padding: 0 0 8px;
+    width: 48px;
+    border-bottom: 2px solid #c5c6c9;
+    transition: border-color .2s ease-in-out,padding .2s ease-in-out;
+} */
