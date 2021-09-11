@@ -6,28 +6,28 @@ import { makeStyles } from "@material-ui/core/styles";
 import Divider from "@material-ui/core/Divider";
 import ManPhoto from "../Assets/man-12326.png"
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    padding: "2px 4px",
-    display: "flex",
-    alignItems: "center",
-    width: 500,
-  },
-  input: {
-    marginLeft: theme.spacing(1),
-    flex: 1,
-  },
-  iconButton: {
-    padding: 10,
-  },
-  divider: {
-    height: 28,
-    margin: 4,
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     padding: "2px 4px",
+//     display: "flex",
+//     alignItems: "center",
+//     width: 500,
+//   },
+//   input: {
+//     marginLeft: theme.spacing(1),
+//     flex: 1,
+//   },
+//   iconButton: {
+//     padding: 10,
+//   },
+//   divider: {
+//     height: 28,
+//     margin: 4,
+//   },
+// }));
 
 const Header = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
     <div className="top_Header" id="home">
       <Container>
@@ -37,21 +37,21 @@ const Header = () => {
             Find the perfect freelance <br /> services for your business
           </h3>
 
-          <Paper component="form" className={classes.root}>
+          <Paper component="form" className="root">
             <IconButton
               type="submit"
-              className={classes.iconButton}
+              className="iconButton"
               aria-label="search"
             >
               <SearchIcon />
             </IconButton>
             <InputBase
-              className={classes.input}
+              className="input"
               placeholder="Search Google Maps"
               inputProps={{ "aria-label": "search google maps" }}
             />
 
-            <Divider className={classes.divider} orientation="vertical" />
+            <Divider className="divider" orientation="vertical" />
 
             <Button>hello</Button>
           </Paper>

@@ -51,6 +51,8 @@
   .popular ul{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+
 
   }
   .popular ul li{
@@ -72,6 +74,25 @@
   }
 
 
+  .root{
+    display: flex;
+    align-items: center;
+    width: 508px;
+    padding: 2px 4px;
+    justify-content: space-around;
+  }
+  .input{
+ 
+  }
+  .iconButton{
+    padding: 10px,
+  }
+ .divider {
+    height: 28;
+    margin: 4;
+  }
+
+
   @media screen and (max-width: 900px) {
     .header_two_part{
 
@@ -86,7 +107,17 @@
       align-items: center;
   
     }
+    .header_textpart h3{
+      font-size: smaller;
+      line-height: 59px;
+    }
      .popular ul li{
 font-size: 15px;
+    }
+    .root{
+      width: -webkit-fill-available;
+    }
+    .popular{
+
     }
   }
