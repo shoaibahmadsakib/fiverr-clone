@@ -1,6 +1,54 @@
+@import url('../App.css');
+
 .Brand_value{
-    display: flex;
-    justify-content: center;
     grid-gap: 20px;
-    padding-bottom: 50px;
+    background-color: rgb(243, 243, 243);
+}
+.Brand_value .BrandContainer {
+    width: 65%;
+    margin: 0 auto;
+}
+.Brand_value .BrandContainer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Brand_value .BrandContainer ul li{
+    list-style-type: none;
+    padding : 1rem 2rem;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: #b5b6ba;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Brand_value .BrandContainer ul li{
+        padding : .5rem 1rem;
+    }
+    .Brand_value .BrandContainer ul .text{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Brand_value .BrandContainer ul li:nth-child(1){
+        display: none;
+    }
+    .Brand_value .BrandContainer ul li:nth-child(4){
+        display: none;
+    }
+    .Brand_value .BrandContainer ul li:nth-child(5){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Brand_value .BrandContainer ul li:nth-child(1){
+        display: none;
+    }
+    .Brand_value .BrandContainer ul li:nth-child(2){
+        display: none;
+    }
+
 }

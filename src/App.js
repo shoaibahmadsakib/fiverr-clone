@@ -17,9 +17,15 @@ import SmallCard from './components/SmallCard';
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
      {/* <Header/>
      <BrandValue/> */}
      <SmallCard/>
+=======
+     {/* <Header/> */}
+     <BrandValue/>
+     {/* <SmallCard/> */}
+>>>>>>> 3b54217ae19a834cd484aecdfeab36f259a9014d
      <PopularService/>
      <ShopGoods/>
      <ExploreMarket/>
