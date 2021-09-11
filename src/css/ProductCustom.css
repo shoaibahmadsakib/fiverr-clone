@@ -1,9 +1,73 @@
+@import url('../App.css');
+
 .product_customize{
-    background-color: blueviolet;
-    height: 400px;
+    background-image: url(../Assets/banner.png);
+    background-position: center;
+    background-color: #4a73e8;
+    background-repeat: no-repeat;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 2px;
+    /* height: 400px; */
 }
 
-.Product_container{
-    padding-top: 50px;
-    line-height: 80px;
+.product_customize .Product_container{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.product_customize .Product_container .text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    font-family: var(--main-font);
+    font-weight: bold;
+    text-align: left;
+}
+.product_customize .Product_container .text p{
+    padding: .2rem 1rem .2rem 0rem;
+}
+.product_customize .Product_container .text .button{
+    border-radius: 2px;
+    padding: .4rem 1rem;
+    background-color: white;
+    color: #4a73e8;
+    margin-top: 2rem;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+.product_customize .Product_container .text .p1{
+    font-size: 23px;
+}
+.product_customize .Product_container .text .p2 span{
+    font-style: italic;
+    display: block;
+}
+.product_customize .Product_container .text .p2{
+    font-size: 34px;
+    padding-top : .5rem ;
+    padding-bottom : .5rem ;
+}
+.product_customize .Product_container .text .p3{
+    font-weight: 300;
+    font-size: 23px;
+}
+
+
+@media screen and (max-width : 768px) {
+    .product_customize{
+        background-image: none;
+    }
+
+    .product_customize .Product_container .text{
+        justify-content: center;
+        align-items: center;
+    }
+    .product_customize .Product_container .text{
+        text-align: center;
+    }
 }

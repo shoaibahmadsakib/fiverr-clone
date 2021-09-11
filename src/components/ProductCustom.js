@@ -6,12 +6,13 @@ const ProductCustom = () => {
     return (
         <div className="product_customize ">
           <div className="Product_container">
-              <div className="heading">
-                  <h1>We Put all in the effect</h1>
+              <div className="text">
+                  <p className="p1">We Put all in the effect</p>
+                  <p className="p2">Make an incredible logo <span>in minutes</span> </p>
+                  <p className="p3">Pre-designed by top talent. Just add your touch.</p>
+                  <Button className="button">Try Fiverr logo maker</Button>
               </div>
               <div className="othercontaint">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio harum vitae in, corporiseos maxime nam.</p>
-                  <Button variant="primary">click here</Button>
               </div>
           </div>
         </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -14,4 +16,15 @@
   display: flex;
   grid-gap: 10px !important;
  
+}
+
+:root {
+  --main-heading-size: 35px;
+  --secondary-heading-size: 27px;
+  --small-heading-size: 25px;
+  --normal-text-size: 18px;
+  --fat-text-size: 25px;
+
+  --main-font: 'Montserrat', sans-serif;
+
 }
