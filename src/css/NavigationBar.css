@@ -12,7 +12,7 @@
   .nav_bar.scrolled {
     position: fixed;
   
-    background-color: #8446ab;
+    background-color:#ac4059;
     width: -webkit-fill-available;
     width: -moz-available;
     display: flex;
@@ -44,7 +44,7 @@
   }
   
   .nav_part2 {
-    background-color: #8446ab;
+    background-color: #ac4059;
     padding-top: 7px;
     z-index: 1;
     display: flex;
