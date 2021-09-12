@@ -3,6 +3,7 @@
 .Brand_value{
     grid-gap: 20px;
     background-color: rgb(243, 243, 243);
+    margin-bottom: 3rem;
 }
 .Brand_value .BrandContainer {
     width: 65%;

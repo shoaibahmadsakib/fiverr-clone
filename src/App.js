@@ -21,8 +21,8 @@ function App() {
         <NaviationBar />
         <Header />
         {/* <BrandValue/> */}
-        <BrandValue />
         <SmallCard />
+        <BrandValue />
         {/* <Header/> */}
         {/* <SmallCard/> */}
         <PopularService />
