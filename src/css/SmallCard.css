@@ -1,12 +1,18 @@
 .paper_style {
-
     width: max-content;
     padding: 20px;
- 
-
 }
+
 .paper_size{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     line-height: 35px;
+    justify-items: center;
+}
+
+
+@media screen and (max-width : 768px) {
+    .smallCard .paper_style{
+        margin-bottom: 1.5rem;
+    }
 }

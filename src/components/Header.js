@@ -30,7 +30,7 @@ const Header = () => {
   // const classes = useStyles();
   return (
     <div className="top_Header" id="home">
-      <Container>
+      <Container className="Topcontainer">
       <div className="header_two_part">
         <div className="header_textpart">
           <h3>
@@ -53,7 +53,7 @@ const Header = () => {
 
             <Divider className="divider" orientation="vertical" />
 
-            <Button>hello</Button>
+            <Button>Search</Button>
           </Paper>
           {/* popular */}
           <div class="popular">
@@ -95,7 +95,7 @@ const Header = () => {
           </div>
         </div>
         <div className="man_photo_part">
-             <img src={ManPhoto} alt="" height="auto" width="500px" />
+             {/* <img src={ManPhoto} alt="" height="auto" width="500px" /> */}
         </div>
       </div>
       </Container>

@@ -2,6 +2,15 @@
     width: 100%;
     height: 100vh;
     background-color: #ac4059;
+    background-image: url(../Assets/man-12326.png);
+    background-position: right bottom;
+    position: relative;
+    top: -100px;
+    background-repeat: no-repeat;
+    background-size: 90vh;
+  
+
+
     /* background-image: linear-gradient(
         rgb(147 24 242 / 46%) 0%,
         rgb(59 20 59 / 37%) 48.81%,
@@ -13,10 +22,7 @@
       rgba(38, 36, 38, 0.37) 48.81%,
       rgba(179, 20, 36, 0.53) 100% */
     /* ; */
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    top: -100px;
+
   }
   .header_textpart {
     font-family: Roboto;
@@ -52,8 +58,11 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+  }
 
-
+  .header_textpart h3{
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
   }
   .popular ul li{
     padding-right: 15px;
@@ -81,9 +90,6 @@
     padding: 2px 4px;
     justify-content: space-around;
   }
-  .input{
- 
-  }
   .iconButton{
     padding: 10px,
   }
@@ -92,8 +98,14 @@
     margin: 4;
   }
 
+  
+  .Topcontainer{
+  }
 
   @media screen and (max-width: 900px) {
+    .top_Header{
+      background-size: 0vh;
+    }
     .header_two_part{
 
     }
@@ -112,12 +124,18 @@
       line-height: 59px;
     }
      .popular ul li{
-font-size: 15px;
+    font-size: 15px;
     }
     .root{
       width: -webkit-fill-available;
     }
     .popular{
 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .popular{
+      display: none;
     }
   }

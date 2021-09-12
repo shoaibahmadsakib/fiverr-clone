@@ -12,7 +12,7 @@ import icon6 from '../Assets/svgs/pizza-slice-solid.svg'
 import icon7 from '../Assets/svgs/user-cog-solid.svg'
 const SmallCard = () => {
   return (
-    <Container className="ComponentSpace">
+    <Container className="smallCard ComponentSpace">
       <div className="paper_size">
         <Paper className="paper_style">
           <img src={icon7} alt="" height="50px" width="auto" />
