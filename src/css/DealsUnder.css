@@ -1,0 +1,65 @@
+@import url(../App.css);
+
+.dealsUnder .dealsContainer{
+    
+}
+.dealsUnder .dealsContainer img{
+    height: 320px;
+    position: relative;    
+}
+/* .dealsUnder .dealsContainer img a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+.dealsUnder .dealsContainer .MuiPaper-root{
+    height: 320px;
+    background-position: center;
+    position: relative;    
+}
+.dealsUnder .dealsContainer .MuiPaper-root a{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* color: black; */
+    color: white;
+    font-weight: bold;
+    font-family: var(--main-font);
+}
+
+
+.dealsUnder .img1{
+    background-image: url(../Assets/deals/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dealsUnder .img2{
+    background-image: url(../Assets/deals/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dealsUnder .img3{
+    background-image: url(../Assets/deals/4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dealsUnder .img4{
+    background-image: url(../Assets/deals/5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dealsUnder .overlay{
+    background: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.855));
+    border-radius: .6rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.dealsUnder .dealsContainer a{
+    text-decoration: none;
+    /* color: white; */
+}
