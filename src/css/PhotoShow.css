@@ -30,7 +30,7 @@
     grid-column-end: 2;
 
 
-    background-image: url("../Assets/headerimg.png");
+    background-image: url("../Assets/kitchen.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -48,7 +48,7 @@
     grid-column-end: 2;
     
 
-    background-image: url("../Assets/headerimg.png");
+    background-image: url("../Assets/footware.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -65,7 +65,7 @@
     grid-column-end: 3;
     
 
-    background-image: url("../Assets/headerimg.png");
+    background-image: url("../Assets/eletronic.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -82,7 +82,7 @@
     grid-column-end: 3;
     
 
-    background-image: url("../Assets/headerimg.png");
+    background-image: url("../Assets/men.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -97,7 +97,7 @@
  
     grid-row-end: 3;
     grid-column-end: 4;
-    background-image: url("../Assets/headerimg.png");
+    background-image: url("../Assets/food1.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -105,4 +105,24 @@
   height: 100%;
 
     
+ }
+
+
+ @media screen and (max-width: 680px) {
+    .angry-grid{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+    }
+    #item-4 {
+       height: 300px;
+    }
+ }
+
+
+ .button_style_down{
+  color: #ffff !important;
+    position: relative;
+    top: 120px;
+    font-size: 30px !important;
  }
